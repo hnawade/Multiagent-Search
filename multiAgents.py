@@ -357,7 +357,7 @@ def betterEvaluationFunction(currentGameState):
                 b = min(b, v)
         return v, max_action
 
-    return alphabet(2, currentGameState, 0, -float("inf"), float("inf"))[0]
+    return alphabet(1, currentGameState, 0, -float("inf"), float("inf"))[0]
     util.raiseNotDefined()
 
 
